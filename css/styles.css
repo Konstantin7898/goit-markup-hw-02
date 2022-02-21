@@ -1,0 +1,70 @@
+.body {
+   background-color: #fff;
+   color: #757575;
+}
+
+.list {
+   list-style: none;
+}
+
+.logo {
+   color:#212121;
+}
+
+.logo:hover {
+   color:#2196F3;
+}
+
+.site-nav .link {
+   color:#212121;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+   color: #2196F3;
+}
+
+.site-nav .link.current {
+   color: #2196F3;
+}
+
+.contact .link {
+   color: #757575;
+}
+
+.contact .link:hover,
+.contact .link:focus {
+   color: #2196F3;
+}
+
+.main {
+   background-color: #2F303A;
+}
+
+.main-title {
+   color: #FFFFFF;
+}
+
+.sectiom-title {
+   color:#212121;
+}
+
+.feature-list .title {
+   color:#212121
+}
+
+.feature-list .link {
+   color: #757575;
+}
+
+/* Button */
+
+.button {
+   color: #FFFFFF;
+   background: #2196F3;
+}
+
+.button.primary {
+   color:#fff;
+   background-color: #2196F3;
+}
