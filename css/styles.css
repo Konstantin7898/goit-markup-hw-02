@@ -1,14 +1,23 @@
-.body {
+body {
    background-color: #fff;
-   color: #757575;
+   color: #212121;
+   
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: -0.02em;
 }
 
 .list {
    list-style: none;
 }
 
+/* logo */
+
 .logo {
    color:#212121;
+   font-family: 'Raleway', cursive;
+   font-size: 26px;
+   line-height: 1.19;
+   text-decoration: none;
 }
 
 .logo:hover {
@@ -17,6 +26,11 @@
 
 .site-nav .link {
    color:#212121;
+
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   text-decoration: none;
 }
 
 .site-nav .link:hover, 
@@ -30,6 +44,7 @@
 
 .contact .link {
    color: #757575;
+   text-decoration: none;
 }
 
 .contact .link:hover,
@@ -43,18 +58,44 @@
 
 .main-title {
    color: #FFFFFF;
+   font-family: Roboto;
+   
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
 }
 
-.sectiom-title {
+.section-title {
    color:#212121;
-}
+   font-weight: 900
+   font-size: 36px;
+   line-height: 1.16;
+   text-align: center;
+   letter-spacing: 0.03em;
+   }
 
 .feature-list .title {
    color:#212121
+   font-family: Roboto;
+   font-weight: 500
+   font-size: 16px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
 }
+
 
 .feature-list .link {
    color: #757575;
+   font-size: 14px;
+   line-height: 1.71;
+}
+
+/* dream */
+
+.dream-link {
+   font-size: 16px;
+   line-height: 1.18;
 }
 
 /* Button */
@@ -62,9 +103,27 @@
 .button {
    color: #FFFFFF;
    background: #2196F3;
+   cursor: pointer;
 }
 
 .button.primary {
    color:#fff;
    background-color: #2196F3;
+   cursor: pointer;
+}
+
+/* footer */
+
+.logo-footer {
+   color:#fff;
+   font-family: 'Raleway', cursive;
+   font-size: 26px;
+   line-height: 1.19;
+   text-decoration: none;
+}
+
+.address {
+   color:#FFFFFF;
+   font-size: 14px;
+   line-height: 1.71;
 }
