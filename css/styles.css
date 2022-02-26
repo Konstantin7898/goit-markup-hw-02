@@ -68,7 +68,7 @@ body {
 
 .section-title {
    color:#212121;
-   font-weight: 900
+   font-weight: 900;
    font-size: 36px;
    line-height: 1.16;
    text-align: center;
@@ -76,9 +76,9 @@ body {
    }
 
 .feature-list .title {
-   color:#212121
+   color:#212121;
    font-family: Roboto;
-   font-weight: 500
+   font-weight: 500;
    font-size: 16px;
    line-height: 1.19;
    letter-spacing: 0.03em;
@@ -122,8 +122,49 @@ body {
    text-decoration: none;
 }
 
+/* address */
 .address {
    color:#FFFFFF;
    font-size: 14px;
    line-height: 1.71;
+   letter-spacing: 0.03em;
+}
+
+/*button portfolio */
+
+.button-portfolio .link {
+   color:  #212121;
+   background-color: #F5F4FA;
+   cursor: pointer;
+   text-decoration: none;
+   font-family: Roboto;
+  
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+   background-color: #2196F3;
+   color:#fff;
+   cursor: pointer;
+}
+
+/* portfolio list */
+.port-title {
+   color: #212121;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+}
+
+.port-link {
+   color:#757575;
+   font-size: 16px;
+   line-height: 1,87;
+   letter-spacing: 0.03em;
+}
+
+.port-list {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
 }
