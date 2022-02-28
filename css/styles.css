@@ -1,6 +1,16 @@
+:root {
+   --primary-text-color: #212121;
+   --title-text-color: #757575;
+   --accent-color: #2196F3;
+   --primary-bg-color: #fff;
+   --main-bg-color: #2F303A;
+   --button-bg-color: #F5F4FA;
+}
+
+
 body {
-   background-color: #fff;
-   color: #212121;
+   background-color: var(--primary-bg-color);
+   color: var(--primary-text-color);
    
    font-family: 'Roboto', sans-serif;
    letter-spacing: -0.02em;
@@ -12,20 +22,26 @@ body {
 
 /* logo */
 
+
 .logo {
-   color:#212121;
-   font-family: 'Raleway', cursive;
+   font-family: 'Raleway', sans-serif;
    font-size: 26px;
    line-height: 1.19;
    text-decoration: none;
 }
 
-.logo:hover {
-   color:#2196F3;
+.logo-web  {
+   color: var(--accent-color);
+}
+
+
+.logo-studio {
+   color: var(--primary-text-color);
+
 }
 
 .site-nav .link {
-   color:#212121;
+   color: var(--primary-text-color);
 
    font-weight: 500;
    font-size: 14px;
@@ -35,39 +51,47 @@ body {
 
 .site-nav .link:hover, 
 .site-nav .link:focus {
-   color: #2196F3;
+   color: var(--accent-color);
 }
 
 .site-nav .link.current {
-   color: #2196F3;
+   color: var(--accent-color);
 }
 
+/* contact */
+
 .contact .link {
-   color: #757575;
+   color: var(--title-text-color);
+   font-size: 14px;
+   line-height: 1.14;
    text-decoration: none;
 }
 
 .contact .link:hover,
 .contact .link:focus {
-   color: #2196F3;
+   color: var(--accent-color);
 }
 
 .main {
-   background-color: #2F303A;
+   background-color: var(--main-bg-color);
 }
 
 .main-title {
-   color: #FFFFFF;
+   color: var(--primary-bg-color);
    font-family: Roboto;
    
    font-weight: 900;
    font-size: 44px;
    line-height: 1.36;
    text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
 }
 
+/* section */
+
 .section-title {
-   color:#212121;
+   color: var(--primary-text-color);
    font-weight: 900;
    font-size: 36px;
    line-height: 1.16;
@@ -75,56 +99,70 @@ body {
    letter-spacing: 0.03em;
    }
 
+.section-title-hidden {
+   visibility: hidden;
+}
+
 .feature-list .title {
-   color:#212121;
-   font-family: Roboto;
+   color: var(--primary-text-color);
    font-weight: 500;
    font-size: 16px;
    line-height: 1.19;
    letter-spacing: 0.03em;
+   text-transform: uppercase;
 }
 
 
 .feature-list .link {
-   color: #757575;
+   color: var(--title-text-color);
    font-size: 14px;
    line-height: 1.71;
+   letter-spacing: 0.03em;
 }
 
 /* dream */
 
 .dream-link {
+   color: var(--title-text-color);
+   font-weight: 500;
    font-size: 16px;
    line-height: 1.18;
+   
 }
 
 /* Button */
 
 .button {
-   color: #FFFFFF;
-   background: #2196F3;
+   color: var(--primary-bg-color);
+   background: var(--accent-color);
    cursor: pointer;
 }
 
 .button.primary {
-   color:#fff;
-   background-color: #2196F3;
+   color: var(--primary-bg-color);
+   background-color: var(--accent-color);
    cursor: pointer;
 }
 
 /* footer */
 
-.logo-footer {
-   color:#fff;
-   font-family: 'Raleway', cursive;
+.logo-footer-web {
+   color: var(--accent-color);
+   font-family: 'Raleway', sans-serif;
    font-size: 26px;
    line-height: 1.19;
-   text-decoration: none;
+}
+
+.logo-footer-studio {
+   color: var(--primary-bg-color);
+   font-family: 'Raleway', sans-serif;
+   font-size: 26px;
+   line-height: 1.19;
 }
 
 /* address */
 .address {
-   color:#FFFFFF;
+   color: var(--primary-bg-color);
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em;
@@ -133,8 +171,11 @@ body {
 /*button portfolio */
 
 .button-portfolio .link {
-   color:  #212121;
-   background-color: #F5F4FA;
+   color: var(--primary-text-color);
+   background-color: var(--button-bg-color);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
    cursor: pointer;
    text-decoration: none;
    font-family: Roboto;
@@ -143,21 +184,21 @@ body {
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-   background-color: #2196F3;
-   color:#fff;
+   background-color: var(--accent-color);
+   color: var(--primary-bg-color);
    cursor: pointer;
 }
 
 /* portfolio list */
 .port-title {
-   color: #212121;
+   color: var(--primary-text-color);
    font-size: 18px;
    line-height: 2;
    letter-spacing: 0.06em;
 }
 
 .port-link {
-   color:#757575;
+   color: var(--title-text-color);
    font-size: 16px;
    line-height: 1,87;
    letter-spacing: 0.03em;
