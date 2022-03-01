@@ -22,22 +22,17 @@ body {
 
 /* logo */
 
-
 .logo {
    font-family: 'Raleway', sans-serif;
+   color: var(--accent-color);
    font-size: 26px;
    line-height: 1.19;
    text-decoration: none;
 }
 
-.logo-web  {
-   color: var(--accent-color);
-}
-
 
 .logo-studio {
    color: var(--primary-text-color);
-
 }
 
 .site-nav .link {
@@ -105,9 +100,9 @@ body {
 
 .feature-list .title {
    color: var(--primary-text-color);
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.19;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
    letter-spacing: 0.03em;
    text-transform: uppercase;
 }
@@ -118,6 +113,16 @@ body {
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em;
+}
+
+/* comands */
+
+.comand-list .title {
+   color: var(--primary-text-color);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.18;
+   letter-spacing: 0.03em
 }
 
 /* dream */
@@ -141,12 +146,16 @@ body {
 .button.primary {
    color: var(--primary-bg-color);
    background-color: var(--accent-color);
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.87;
    cursor: pointer;
+   border: none;
 }
 
 /* footer */
 
-.logo-footer-web {
+.logo {
    color: var(--accent-color);
    font-family: 'Raleway', sans-serif;
    font-size: 26px;
@@ -163,6 +172,7 @@ body {
 /* address */
 .address {
    color: var(--primary-bg-color);
+   font-style: 400;
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em;
@@ -170,7 +180,7 @@ body {
 
 /*button portfolio */
 
-.button-portfolio .link {
+.button-portfolio  {
    color: var(--primary-text-color);
    background-color: var(--button-bg-color);
    font-weight: 500;
@@ -179,6 +189,7 @@ body {
    cursor: pointer;
    text-decoration: none;
    font-family: Roboto;
+   border: none;
   
 }
 
